@@ -1,0 +1,32 @@
+{
+   "tabs":[
+      {
+         "id":1,
+         "name":"Energy"
+      },
+      {
+         "id":2,
+         "name":"Flights"
+      },
+      {
+         "id":3,
+         "name":"Cars"
+      },
+      {
+         "id":4,
+         "name":"Motor Bike"
+      },
+      {
+         "id":5,
+         "name":"Public Transport"
+      },
+      {
+         "id":6,
+         "name":"Secondary"
+      },
+      {
+         "id":7,
+         "name":"Results"
+      }
+   ]
+}
