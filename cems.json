@@ -1,6 +1,10 @@
 {
    "tabs":[
       {
+         "id":0,
+         "name":"Dummy"
+      },
+      {
          "id":1,
          "name":"Energy"
       },
