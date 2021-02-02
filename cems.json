@@ -6,7 +6,100 @@
       },
       {
          "id":1,
-         "name":"Energy"
+         "name":"Energy",
+         "sections": [
+           {
+             "columns" :[
+                  {
+                    "widget" : {
+                      "name" : "textfield",
+                      "value" : "Electricity"
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "textfield",
+                      "value" : "KgCo2/Kwh"
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "button",
+                      "value" : "File upload"
+                    }
+                    }
+                  
+               ]
+           },
+           
+           {
+             "columns" :[
+                  {
+                    "widget" : {
+                      "name" : "textfield",
+                      "value" : "Natural Gas"
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "dropdown",
+                      "value" : [
+                          "litres","kgs"
+                        ]
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "button",
+                      "value" : "File upload"
+                    }
+                    }
+                  
+               ]
+           },{
+             "columns" :[
+                  {
+                    "widget" : {
+                      "name" : "textfield",
+                      "value" : "Coal"
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "dropdown",
+                      "value" : [
+                          "litres","kgs"
+                        ]
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "button",
+                      "value" : "File upload"
+                    }
+                    }
+                  
+               ]
+           }
+           ,
+           {
+             "columns" :[
+                  {
+                    "widget" : {
+                      "name" : "textfield",
+                      "value" : "LPG"
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "dropdown",
+                      "value" : [
+                          "litres","kgs"
+                        ]
+                    }
+                    },{
+                      "widget" : {
+                      "name" : "button",
+                      "value" : "File upload"
+                    }
+                    }
+                  
+               ]
+           }
+           ]
       },
       {
          "id":2,
