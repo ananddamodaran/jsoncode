@@ -1,9 +1,6 @@
 {
    "tabs":[
-      {
-         "id":0,
-         "name":"Dummy"
-      },
+  
       {
          "id":1,
          "name":"Energy",
@@ -103,31 +100,66 @@
       },
       {
          "id":2,
-         "name":"Flights"
+         "name":"Flights",
+         "sections": [
+           {
+             "columns"  : []
+           }
+           ]
       },
       {
          "id":3,
-         "name":"Cars"
+         "name":"Cars",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       },
       {
          "id":4,
-         "name":"Motor Bike"
+         "name":"Motor Bike",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       },
       {
          "id":5,
-         "name":"Public Transport"
+         "name":"Public Transport",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       },
       {
          "id":6,
-         "name":"Secondary"
+         "name":"Secondary",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       },
       {
          "id":7,
-         "name":"Results"
+         "name":"Results",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       },
       {
          "id":8,
-         "name":"Rajesh"
+         "name":"Rajesh",
+          "sections": [
+            {
+             "columns"  : []
+           }
+            ]
       }
 
    ]
