@@ -47,9 +47,8 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
+                      
                     }
                     },{
                       "widget" : {
@@ -69,9 +68,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -93,9 +90,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -144,9 +139,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -166,9 +159,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -190,9 +181,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -241,9 +230,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -263,9 +250,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -287,9 +272,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -338,9 +321,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -360,9 +341,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -384,9 +363,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -435,9 +412,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -457,9 +432,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -481,9 +454,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -532,9 +503,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -554,9 +523,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -578,9 +545,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -629,9 +594,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -651,9 +614,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -675,9 +636,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -726,9 +685,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -748,9 +705,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
@@ -772,9 +727,7 @@
                     },{
                       "widget" : {
                       "name" : "dropdown",
-                      "value" : [
-                          "litres","kgs"
-                        ]
+                      "value" : "litres,kgs"
                     }
                     },{
                       "widget" : {
