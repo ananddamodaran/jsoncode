@@ -1,767 +1,782 @@
-[
-  {
-   "category_id": 1,
-   "category_name": "Agriculture",
-    "tabs": [
-      ]
-},
-  
 {
-   "category_id": 2,
-   "category_name": "Household",
-   "tabs":[
-  
-      {
-         "id":1,
-         "name":"Energy",
-         "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                      
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":2,
-         "name":"Flights",
-         "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":3,
-         "name":"Cars",
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Agriculture",
+      "tabs": []
+    },
+    {
+      "category_id": 2,
+      "category_name": "Household",
+      "tabs": [
+        {
+          "id": 1,
+          "name": "Energy",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":4,
-         "name":"Motor Bike",
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Flights",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":5,
-         "name":"Public Transport",
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cars",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":6,
-         "name":"Secondary",
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Motor Bike",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":7,
-         "name":"Results",
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Public Transport",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      },
-      {
-         "id":8,
-         "name":"Rajesh",
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Secondary",
           "sections": [
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Electricity"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "textfield",
-                      "value" : "KgCo2/Kwh"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },
-           
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Natural Gas"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           },{
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "Coal"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ,
-           {
-             "columns" :[
-                  {
-                    "widget" : {
-                      "name" : "textfield",
-                      "value" : "LPG"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "dropdown",
-                      "value" : "litres,kgs"
-                    }
-                    },{
-                      "widget" : {
-                      "name" : "button",
-                      "value" : "File upload"
-                    }
-                    }
-                  
-               ]
-           }
-           ]
-      }
-
-   ]
-},
-
-{
-   "category_id": 3,
-   "category_name": "Industry",
-    "tabs": [
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Results",
+          "sections": [
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Rajesh",
+          "sections": [
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Electricity"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "KgCo2/Kwh"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Natural Gas"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "Coal"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            },
+            {
+              "columns": [
+                {
+                  "widget": {
+                    "name": "textfield",
+                    "value": "LPG"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "dropdown",
+                    "value": "litres,kgs"
+                  }
+                },
+                {
+                  "widget": {
+                    "name": "button",
+                    "value": "File upload"
+                  }
+                }
+              ]
+            }
+          ]
+        }
       ]
-},
-{
-   "category_id": 4,
-   "category_name": "Business",
-    "tabs": [
-      ]
-},
-{
-   "category_id": 5,
-   "category_name": "Corporate",
-    "tabs": [
-      ]
+    },
+    {
+      "category_id": 3,
+      "category_name": "Industry",
+      "tabs": []
+    },
+    {
+      "category_id": 4,
+      "category_name": "Business",
+      "tabs": []
+    },
+    {
+      "category_id": 5,
+      "category_name": "Corporate",
+      "tabs": []
+    }
+  ]
 }
-
-]
-
